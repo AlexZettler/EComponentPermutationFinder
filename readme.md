@@ -3,7 +3,7 @@
 This package simplifies the process of finding passive components for a schematic.
 Practically this means finding component configurations that are closest to a target value given a calculation function.
 
-##Why:
+## Why:
 The value of the tool is it's ability to reuse existing components in the design leading to the following benefits:
 * Reduce the number of unique components:
     * Makes ordering parts easier
@@ -14,11 +14,10 @@ The value of the tool is it's ability to reuse existing components in the design
 * Easy to get started with and extend the functionality of.
 * Allows the design calculations to be referred to in the future in the case of changing, or reusing part of the design.
 
-##Installing:
-More info once 
+## Installing:
+More info once on pypi
 
-##Usage Example:
-
+## Usage Example:
 ```python
 from ECPF.components import iterate_value_order_magnitude
 from ECPF.value_filter import ValueFilter
@@ -173,5 +172,5 @@ rb Configuration:
 ```
 
 
-##Contributing:
+## Contributing:
 Feel free to request a merge. If it a large change to the code base, please e-mail (azettler@live.com) me prior to discuss the suggestion and see if makes sense and if so how I can help.
