@@ -8,7 +8,7 @@ import itertools
 import functools
 import operator
 import math
-from components import iComponent, Component, ChainPermutation
+from ECPF.components import iComponent, Component, ChainPermutation
 
 
 class iPermutator:

@@ -7,7 +7,7 @@ import functools
 import operator
 import math
 import random
-from float_representation_tools import eng_format
+from ECPF.float_representation_tools import eng_format
 
 
 # from inspect import signature

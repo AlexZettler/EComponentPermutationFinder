@@ -1,13 +1,11 @@
-from components import iterate_value_order_magnitude
-from value_filter import ValueFilter
-from components import iComponent, Component, ChainPermutation
-from value_permutator import iPermutator, ComponentPermutator, ChainPermutator
-from constants import E_SERIES
-from component_config_functs import ResistorConfiguration, CapacitorConfiguration, InductorConfiguration
+from ECPF.components import iterate_value_order_magnitude
+from ECPF.value_filter import ValueFilter
+from ECPF.value_permutator import iPermutator, ComponentPermutator, ChainPermutator
+from ECPF.constants import E_SERIES
+from ECPF.component_config_functs import ResistorConfiguration, CapacitorConfiguration
 import itertools
 from inspect import signature
-from matplotlib import pyplot as plt
-from float_representation_tools import eng_format
+from ECPF.float_representation_tools import eng_format
 
 vin = 5.0
 vout = 12.0

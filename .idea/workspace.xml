@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d34b647-2bfd-4b96-a8cd-569dd8420f89" name="Default Changelist" comment="" />
+    <list default="true" id="8d34b647-2bfd-4b96-a8cd-569dd8420f89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/bluetooth_speaker_useage/MP24833.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/component_permutator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/component_permutator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_config_functs.py" beforeDir="false" afterPath="$PROJECT_DIR$/ECPF/component_config_functs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.py" beforeDir="false" afterPath="$PROJECT_DIR$/ECPF/components.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/ECPF/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/R1213K001B.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/bluetooth_speaker_useage/R1213K001B.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/examples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/float_representation_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/ECPF/float_representation_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/ECPF/value_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_permutator.py" beforeDir="false" afterPath="$PROJECT_DIR$/ECPF/value_permutator.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,40 +27,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components.py">
+        <entry file="file://$PROJECT_DIR$/ECPF/components.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="-2640">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ECPF/constants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#11#2859#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/value_permutator.py">
+        <entry file="file://$PROJECT_DIR$/ECPF/value_permutator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#62#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="345">
+                <caret line="148" column="35" lean-forward="true" selection-start-line="148" selection-start-column="35" selection-end-line="148" selection-end-column="35" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/value_filter.py">
+        <entry file="file://$PROJECT_DIR$/ECPF/value_filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2178">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/float_representation_tools.py">
+        <entry file="file://$PROJECT_DIR$/ECPF/float_representation_tools.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="726">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
@@ -53,34 +93,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component_config_functs.py">
+        <entry file="file://$PROJECT_DIR$/examples/bluetooth_speaker_useage/R1213K001B.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="54" column="16" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/examples.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-                <element signature="e#468#2199#0" />
-              </folding>
+            <state relative-caret-position="-1232">
+              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/R1213K001B.py">
+        <entry file="file://$PROJECT_DIR$/ECPF/component_config_functs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/bluetooth_speaker_useage/MP24833.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="57" lean-forward="true" selection-start-column="57" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/bluetooth_speaker_useage/bq25713.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1831">
+              <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,6 +149,9 @@
       <find>self.chain_functions</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -118,14 +166,27 @@
         <option value="$PROJECT_DIR$/value_filter.py" />
         <option value="$PROJECT_DIR$/value_permutator.py" />
         <option value="$PROJECT_DIR$/examples/R1213K001B.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/examples/MP24833.py" />
+        <option value="$PROJECT_DIR$/examples/res_divs/idk.py" />
+        <option value="$PROJECT_DIR$/examples/res_divs/bq25713.py" />
+        <option value="$PROJECT_DIR$/src/components.py" />
+        <option value="$PROJECT_DIR$/src/value_filter.py" />
+        <option value="$PROJECT_DIR$/src/value_permutator.py" />
+        <option value="$PROJECT_DIR$/ECPF/src/value_permutator.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/ECPF/__init__.py" />
+        <option value="$PROJECT_DIR$/examples/bluetooth_speaker_useage/MP24833.py" />
+        <option value="$PROJECT_DIR$/examples/bluetooth_speaker_useage/R1213K001B.py" />
+        <option value="$PROJECT_DIR$/examples/bluetooth_speaker_useage/bq25713.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="311" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="938" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -136,19 +197,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="component_permutator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="component_permutator" type="462c0819:PsiDirectoryNode" />
+              <item name="EComponentPermutationFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EComponentPermutationFinder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="component_permutator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="component_permutator" type="462c0819:PsiDirectoryNode" />
+              <item name="EComponentPermutationFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EComponentPermutationFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="ECPF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EComponentPermutationFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EComponentPermutationFinder" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="component_permutator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="component_permutator" type="462c0819:PsiDirectoryNode" />
+              <item name="EComponentPermutationFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EComponentPermutationFinder" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="R1213K001B.py" type="8704e2dd:PyFileNode" />
+              <item name="bluetooth_speaker_useage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,11 +224,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/PYTHON_ANACONDA/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Azett\PycharmProjects\EComponentPermutationFinder" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Azett\PycharmProjects\EComponentPermutationFinder\ECPF" />
+      <recent name="E:\Users\Azett\PycharmProjects\EComponentPermutationFinder\ECPF\src" />
+      <recent name="E:\Users\Azett\PycharmProjects\EComponentPermutationFinder\src" />
+      <recent name="E:\Users\Azett\PycharmProjects\EComponentPermutationFinder\examples\bluetooth_speaker_useage" />
       <recent name="E:\Users\Azett\PycharmProjects\component_permutator\examples" />
     </key>
   </component>
@@ -178,7 +251,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.R1213K001B">
+  <component name="RunManager" selected="Python.bq25713">
+    <configuration name="MP24833" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="component_permutator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Users\Azett\PycharmProjects\EComponentPermutationFinder\examples\bluetooth_speaker_useage\MP24833.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="R1213K001A" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="component_permutator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,7 +306,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/R1213K001B.py" />
+      <option name="SCRIPT_NAME" value="E:\Users\Azett\PycharmProjects\EComponentPermutationFinder\examples\bluetooth_speaker_useage\R1213K001B.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +315,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="examples" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bq25713" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="component_permutator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,11 +323,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/bluetooth_speaker_useage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Users\Azett\PycharmProjects\component_permutator\examples\examples.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/bluetooth_speaker_useage/bq25713.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="value_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="idk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="component_permutator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,11 +344,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/res_divs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/value_filter.py" />
+      <option name="SCRIPT_NAME" value="E:\Users\Azett\PycharmProjects\EComponentPermutationFinder\examples\bluetooth_speaker_useage\bq25713.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,10 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bq25713" />
+        <item itemvalue="Python.idk" />
+        <item itemvalue="Python.MP24833" />
         <item itemvalue="Python.R1213K001B" />
         <item itemvalue="Python.R1213K001A" />
-        <item itemvalue="Python.examples" />
-        <item itemvalue="Python.value_filter" />
       </list>
     </recent_temporary>
   </component>
@@ -289,13 +384,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14805058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14805058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32815534" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52380955" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32804233" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7121693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3915344" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,22 +409,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/components.py</url>
+          <url>file://$PROJECT_DIR$/ECPF/components.py</url>
           <line>107</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/examples/R1213K001B.py</url>
+          <url>file://$PROJECT_DIR$/examples/bluetooth_speaker_useage/R1213K001B.py</url>
           <line>174</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/value_permutator.py</url>
+          <url>file://$PROJECT_DIR$/ECPF/value_permutator.py</url>
           <line>60</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/value_permutator.py</url>
+          <url>file://$PROJECT_DIR$/ECPF/value_permutator.py</url>
           <line>63</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
@@ -392,16 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
-          <folding>
-            <element signature="e#11#2859#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/component_permutator-UAbA39OG/Lib/site-packages/matplotlib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -433,65 +518,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="22">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/value_permutator.py">
+    <entry file="file://$PROJECT_DIR$/ECPF/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/value_filter.py">
+    <entry file="file://$PROJECT_DIR$/ECPF/value_permutator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#62#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/float_representation_tools.py">
+    <entry file="file://$PROJECT_DIR$/ECPF/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
+          <folding>
+            <element signature="e#11#2859#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECPF/components.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2640">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECPF/component_config_functs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/bluetooth_speaker_useage/R1213K001B.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1232">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECPF/value_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECPF/float_representation_tools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component_config_functs.py">
+    <entry file="file://$PROJECT_DIR$/examples/bluetooth_speaker_useage/MP24833.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="16" />
+        <state>
+          <caret column="57" lean-forward="true" selection-start-column="57" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/R1213K001B.py">
+    <entry file="file://$PROJECT_DIR$/examples/bluetooth_speaker_useage/bq25713.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="1831">
+          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/examples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-            <element signature="e#468#2199#0" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="148" column="35" lean-forward="true" selection-start-line="148" selection-start-column="35" selection-end-line="148" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
