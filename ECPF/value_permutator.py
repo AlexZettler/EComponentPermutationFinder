@@ -3,7 +3,7 @@ Defines objects that generate component permutations
 """
 
 import decimal
-from typing import Set, Tuple, Dict, List, Deque, Iterable, Callable, Generator
+from typing import Set, Tuple, Dict, List, Deque, Iterable, Callable, Generator, Any
 import itertools
 import functools
 import operator
@@ -43,10 +43,7 @@ class ChainPermutator(iPermutator):
     This class acts as a may of chaining PermutatorComponent devices
     """
 
-    def __init__(self,
-                 components: Iterable[ComponentPermutator],
-                 chaining_functions: Iterable[Callable]
-                 ):
+    def __init__(self, components: Iterable[ComponentPermutator], chaining_functions: Iterable[Callable]):
         self.components: Iterable[ComponentPermutator] = components
         self.chaining_functions: Iterable[Callable] = chaining_functions
 
@@ -56,9 +53,9 @@ class ChainPermutator(iPermutator):
                sum(1 for x in self.chaining_functions) ** (sum(1 for x in self.components) - 1)
 
     def __iter__(self) -> Generator[ChainPermutation, None, None]:
-        for chain_vals in itertools.product(*[*self.components]):
+        for chain_vals in itertools.product(*self.components):
 
             for funct_perm in itertools.permutations(self.chaining_functions, r=sum(1 for x in self.components) - 1):
                 # print(funct_perm)
 
-                yield ChainPermutation(chain_vals, funct_perm)
+                yield ChainPermutation(chain_vals, funct_perm)  # type: ignore

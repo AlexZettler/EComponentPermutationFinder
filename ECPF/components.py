@@ -1,5 +1,5 @@
 import decimal
-from typing import Set, Tuple, Dict, List, Deque, Iterable, Callable, Generator
+from typing import Set, Tuple, Dict, List, Deque, Iterable, Callable, Generator, Any
 from collections import deque
 from operator import mul
 import itertools
@@ -10,10 +10,10 @@ import random
 from ECPF.float_representation_tools import eng_format
 
 
-# from inspect import signature
-
-
 class iComponent:
+    """
+    Abstract class defining interfaces that all Component subclasses must implement
+    """
 
     @property
     def value(self) -> float:
@@ -59,9 +59,15 @@ class Component(iComponent):
 
 
 class ChainPermutation(iComponent):
-    def __init__(self, chain_vals: Tuple[Component], chain_functions: Iterable[Callable]):
+    """
+    A chain permutation is a component that abstracts a chain of components.
+    This provides an interface for treating the chain as a single component.
+    """
 
-        self.chain_vals: Tuple[Component] = chain_vals
+    def __init__(self, chain_vals: Tuple[Any],
+                 chain_functions: Iterable[Callable[[float, float], float]]):
+
+        self.chain_vals: Tuple[iComponent] = chain_vals
         self.chain_functions = chain_functions
         self._max_val = None
         self._min_val = None
@@ -111,8 +117,15 @@ class ChainPermutation(iComponent):
     @property
     def value(self) -> float:
         current_value = float(self.chain_vals[0])
-        for v, f in zip(self.chain_vals[1:], self.chain_functions):
-            current_value = f(current_value, float(v))
+        chain_vals: Iterable[Component] = self.chain_vals[1:]
+
+        v_i: Generator[float, None, None] = (float(_v) for _v in chain_vals)
+
+        # zip_i: Generator[Tuple[Generator[Tuple[float], None, None] ,None, None] = zip(v_i, self.chain_functions)
+        # zip_i =
+
+        for v, f in zip(v_i, self.chain_functions):
+            current_value = f(current_value, v)
         return current_value
 
     def __float__(self):
@@ -156,7 +169,9 @@ class ChainPermutation(iComponent):
 
     def sample(self) -> float:
         current_value = self.chain_vals[0].sample()
-        for v, f in zip(self.chain_vals[1:], self.chain_functions):
+        chain_vals: Iterable[Component] = self.chain_vals[1:]
+
+        for v, f in zip(chain_vals, self.chain_functions):
             current_value = f(current_value, v.sample())
         return current_value
 

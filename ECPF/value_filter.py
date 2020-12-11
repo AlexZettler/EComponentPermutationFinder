@@ -1,12 +1,13 @@
-from typing import Tuple, Deque, Iterable, Callable
+from typing import Tuple, Deque, Iterable, Callable, Any
 from collections import deque
 import itertools
 import math
 
+from ECPF.float_representation_tools import eng_format
 from ECPF.components import iComponent
-from numpy import percentile, std, mean
-from matplotlib import pyplot as plt
 
+from numpy import percentile, std, mean  # type: ignore
+from matplotlib import pyplot as plt  # type: ignore
 
 
 class ValueFilter:
@@ -38,7 +39,7 @@ class ValueFilter:
         self.filters: Iterable[Callable[..., bool]] = filters
 
         # A sorted Deque of results reprenenting the permutations that are closest to the target value
-        self.results: Deque[Tuple[iComponent]] = deque(maxlen=number_of_results)
+        self.results: Deque[Tuple[iComponent]] = deque((), maxlen=number_of_results)
 
         # A count taken to see how many permutations were tested
         self.total_permutations_tested: int = 0
@@ -82,8 +83,9 @@ class ValueFilter:
                 break
 
         if insert_index is not None:
-            if len(self.results) >= self.results.maxlen:
-                self.results.pop()
+            if self.results.maxlen is not None:
+                if len(self.results) >= self.results.maxlen:
+                    self.results.pop()
 
             self.results.insert(insert_index, permutation)
 
@@ -97,8 +99,10 @@ class ValueFilter:
         self.total_permutations_tested = 0
         self.permutations_filtered = 0
 
+        vi_any: Iterable[Any] = self.value_iterators
+
         # Iterate over all combinations
-        for val_product in itertools.product(*self.value_iterators):
+        for val_product in itertools.product(*vi_any):
             self.total_permutations_tested += 1
 
             # Check if permutation is valid given filters
@@ -115,8 +119,7 @@ class ValueFilter:
                 self.permutations_filtered += 1
 
     # Statistical methods
-    def theoretical_min_max(self,
-                            permutation: Tuple[iComponent]
+    def theoretical_min_max(self,permutation: Tuple[iComponent]
                             ) -> Tuple[float, Tuple[iComponent], float, Tuple[iComponent]]:
 
         theoretical_min = None
@@ -151,7 +154,7 @@ class ValueFilter:
         :param n_samples: The number of monte carlo samples to generate
         :return:
         """
-        sample_results = deque(maxlen=n_samples)
+        sample_results: Deque[float] = deque(maxlen=n_samples)
         for s in range(n_samples):
             permutation_samples = (v.sample() for v in permutation)
             sample_val = self.calculation_function(*permutation_samples)
@@ -183,6 +186,25 @@ class ValueFilter:
                    * sum((samp - mean_val) ** 3 for samp in samples) / standard_dev ** 3
 
         return theoretical_min, theoretical_max, sample_len, standard_dev, variance, skewness, mean_val, q25, median, q75
+
+    def get_stats_str(self, permutation: Tuple[iComponent], samples=None) -> str:
+
+        stat_data = self.generate_stat_data(permutation, samples)
+        theoretical_min, theoretical_max, sample_len,standard_dev, variance, skewness, mean_val, q25, median, q75 = stat_data
+
+        # Display some statistical information about the range of values
+        return "\n".join((
+            f"theoretical min: {theoretical_min}",
+            f"theoretical max: {theoretical_max}",
+            f"Monte-Carlo stats of the {eng_format(sample_len)} samples generated:",
+            f"    std: {standard_dev}",
+            f"    variance: {variance}",
+            f"    skewness: {skewness}",
+            f"    mean: {mean_val}",
+            f"    q25: {q25}",
+            f"    q50: {median}",
+            f"    q75: {q75}"
+        ))
 
     @staticmethod
     def plot_sample_distribution(samples: Iterable[float]):
